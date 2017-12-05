@@ -1,0 +1,7 @@
+/* to give image rounded corners */
+#img {
+    border-radius: 15px 50px;
+    border: 6px solid #00FA9A;
+    height: 320px; 
+    width: 250px;
+}
