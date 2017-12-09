@@ -1,7 +1,14 @@
 /* to give image rounded corners */
+body {
+	background-image: url(../img/topography.png);
+	background-color: #cccccc;	
+}
 #img {
-    border-radius: 15px 50px;
-    border: 6px solid #00FA9A;
-    height: 320px; 
+	height: 320px; 
     width: 250px;
+    border-radius: 15px 50px;
+    border: 16px solid #00FA9A;
+}
+.white {
+	background-color: white;
 }
