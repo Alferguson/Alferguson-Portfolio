@@ -3,11 +3,21 @@ body {
 	background-image: url(../img/topography.png);
 	background-color: #cccccc;	
 }
+.wrapper {
+    position: relative;
+    padding: 0;
+    width: 100px;
+    display: block;
+}
+.absolute {
+	position: absolute;
+}
 #img {
 	height: 320px; 
     width: 250px;
     border-radius: 15px 50px;
     border: 16px solid #00FA9A;
+    z-index: 10;
 }
 .white {
 	background-color: white;
