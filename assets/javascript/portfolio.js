@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	$("#slide-right").hide();
-	$("#img").on("click", function() {
-		$("#slide-right").show();
-	    $("#slide-right").addClass('magictime slideRight');
-	});
-})
+    $(".slide-left").addClass('magictime spaceInLeft');
+    $(".slide-right").addClass('magictime spaceInRight');
+});
