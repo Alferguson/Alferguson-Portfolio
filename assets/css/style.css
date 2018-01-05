@@ -30,16 +30,15 @@ body {
 	height: auto;
 	/*transform: scale(0.3);*/
 }
-.prof-image,
+.profImage,
 .connect-image {
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
 	-moz-transition: all 1s ease; /* Firefox */
 	-o-transition: all 1s ease; /* IE 9 */
 	-ms-transition: all 1s ease; /* Opera */
 	transition: all 1s ease;
-
 }
-.prof-image:hover,
+.profImage:hover,
 .connect-image:hover {
 	-webkit-transform:scale(1.05); /* Safari and Chrome */
   	-moz-transform:scale(1.05); /* Firefox */
@@ -47,7 +46,7 @@ body {
   	-o-transform:scale(1.05); /* Opera */
   	transform:scale(1.05);
 }
-.prof-image {
+.profImage {
 	height: 100%; 
   	width: 100%;
   	border-radius: 15px 50px;
@@ -59,4 +58,15 @@ body {
 }
 .card {
 	height: 200px; 
+}
+.rightBlock {
+	/*position: absolute;*/
+	float: right;
+}
+.leftBlock {
+	float: left;
+}
+.imageSmall {
+	width: 60%;
+	height: 80%;
 }
