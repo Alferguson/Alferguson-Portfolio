@@ -9,11 +9,12 @@ body {
 	background-color: #cccccc;
 	font-family: 'Lora', serif;
 }
-#about-me {
+.underline {
   border-bottom: 1px solid black;
 }
 .fell-english-font {
 	font-family: 'IM Fell English', serif;
+	font-size: 80%;
 }
 .wrapper {
   	position: relative;
@@ -61,7 +62,4 @@ body {
 .imageSmall {
 	width: 60%;
 	height: 80%;
-}
-.z {
-	right: 100px;
 }
