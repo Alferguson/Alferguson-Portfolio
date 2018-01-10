@@ -28,7 +28,6 @@ body {
 	width: 60px;
 	margin-right: 30px;
 	height: auto;
-	/*transform: scale(0.3);*/
 }
 .profImage,
 .connect-image {
@@ -59,14 +58,10 @@ body {
 .card {
 	height: 200px; 
 }
-.rightBlock {
-	/*position: absolute;*/
-	float: right;
-}
-.leftBlock {
-	float: left;
-}
 .imageSmall {
 	width: 60%;
 	height: 80%;
+}
+.z {
+	right: 100px;
 }
